@@ -1,0 +1,65 @@
+﻿name: 书摘
+
+title: 书摘 | 航通社
+
+description: 每日阅读与分享
+
+avatar: https://avatars3.githubusercontent.com/u/49574
+
+theme: jekyll-theme-cayman
+
+email: lishuhang@gmail.com
+
+twitter: lishuhang
+
+# Enter your Disqus shortname (not your username) to enable commenting on posts
+disqus: lishuhang
+
+# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
+google_analytics: UA-17809464-2
+
+# Your website URL , Used for Sitemap.xml and your RSS feed
+url: "https://lishuhang.github.io/clipper.github.io/"
+
+# If you're hosting your site at a Project repository on GitHub pages
+# (http://yourusername.github.io/repository-name)
+# and NOT your User repository (http://yourusername.github.io)
+# then add in the baseurl here, like this: "/repository-name"
+baseurl: ""
+
+permalink: /:year/:month/:day/:title:output_ext
+
+gems: [jekyll-paginate,pager,pagination]   #添加插件
+paginate: 10   #开启分页
+paginate_path: "blog/page:num"  #首页分页
+
+# Jekyll 3 now only supports Kramdown for Markdown
+kramdown:
+
+# Use GitHub flavored markdown, including triple backtick fenced code blocks
+input: GFM
+
+# Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
+syntax_highlighter: rouge
+syntax_highlighter_opts:
+
+# Use existing pygments syntax highlighting css
+css_class: 'highlight'
+
+# Use the following plug-ins
+plugins:
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+  - jekyll-paginate
+  - jekyll-redirect-from
+  - jekyll-mentions
+  - jekyll-seo-tag
+  - jekyll-feed
+
+# Exclude these files from your production _site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME

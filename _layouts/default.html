@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "zh-CN" }}">
+  <head>
+    <meta charset="UTF-8">
+
+{% seo %}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#FF9900">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  </head>
+  <body>
+    <a id="skip-to-content" href="#content">跳转到内容</a>
+
+    <header class="page-header" role="banner">
+      <h1 class="project-name"><a href="/" style="color:#FFF;"><img src="http://ww1.sinaimg.cn/large/4b91f9d5gy1ful04dh63vg207s02sweb.gif" alt="{{ site.title | default: site.github.repository_name }}"/></a></h1>
+      <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+     <a href="/categories/" class="btn">所有分类</a>
+     <a href="/about/" class="btn">关于</a>
+     <a href="https://blog.lishuhang.me/" class="btn">56K小猫</a>
+
+    </header>
+
+    <main id="content" class="main-content" role="main">
+      {{ content }}
+
+      <footer class="site-footer">
+              <!--
+        {% if site.github.is_project_page %}
+          <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
+        {% endif %}
+        -->
+        <span class="site-footer-credits">&copy; {{ site.title | default: site.github.repository_name }}保留所有权利。生成并托管于 <a href="https://pages.github.com">GitHub Pages</a> 上。</span> ·
+      <a href="https://weibo.com/lishuhang">微博</a> ·
+      <a href="https://mp.weixin.qq.com/s/tFzBdbA0VtXkyaPIDcHwGg">微信</a> ·
+      <a href="https://zhuanlan.zhihu.com/lishuhang">知乎</a> ·
+      <a href="https://www.huxiu.com/member/10951/article.html">虎嗅网</a>
+
+      </footer>
+    </main>
+
+    {% if site.google_analytics %}
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', '{{ site.google_analytics }}', 'auto');
+        ga('send', 'pageview');
+      </script>
+    {% endif %}
+    
+    
+  </body>
+</html>

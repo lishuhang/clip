@@ -1,0 +1,45 @@
+---
+layout: default
+---
+<article itemscope itemtype="http://schema.org/BlogPosting">
+
+<style>
+.main-content img {display: block;margin: 0 auto;}
+</style>
+
+  <!--  -->
+  
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
+    <p class="post-meta">
+    <span class="post-categories">
+  {% if post %}
+    {% assign categories = post.categories %}
+  {% else %}
+    {% assign categories = page.categories %}
+  {% endif %}
+  {% for category in categories %}
+  <a href="{{site.baseurl}}/categories/#{{category|slugize}}" style="color:#999;">{{category}}</a>
+  {% unless forloop.last %}&nbsp;{% endunless %}
+  {% endfor %}
+</span>
+       • <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {% assign date_format = site.cayman-blog.date_format | default: "%b %-d, %Y" %}
+        {{ page.date | date: date_format }}
+      </time>
+      {% if page.author %}
+        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
+      {% endif %}</p>
+  </header> 
+
+  <div itemprop="articleBody">
+    {{ content }}
+    
+   <img src="http://ww1.sinaimg.cn/large/4b91f9d5gy1fu39zsdfpsj20rs05k779.jpg" /><p>欢迎随手转发到朋友圈。寻求转载授权，请关注微信公众号<b>航通社 (ID:lifeissohappy) </b>，并在后台留言输入关键字<b>转载</b>。转载时请保留版权信息。
+
+  </div>
+
+  {% if site.disqus.shortname %}
+    {% include disqus_comments.html %}
+  {% endif %}
+</article>

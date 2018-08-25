@@ -1,0 +1,36 @@
+﻿---
+layout: default
+---
+<style>
+.main-content img {min-width:100%;}
+</style>
+<div>
+
+{{ content }}
+
+{% for post in site.posts %}
+    
+<h2 class="post-title" itemprop="name headline"><a href="{{ post.url | relative_url }}" title="{{ post.title }}">{{ post.title | escape }}</a></h2>
+	
+<span class="post-categories">
+{% if post %}
+{% assign categories = post.categories %}
+{% else %}
+{% assign categories = page.categories %}
+{% endif %}
+{% for category in categories %}
+<a href="{{site.baseurl}}/categories/#{{category|slugize}}" style="color:#999;">{{category}}</a>
+{% unless forloop.last %}&nbsp;{% endunless %}
+{% endfor %}
+</span>
+<span>&nbsp;|&nbsp;</span>
+{% assign date_format = site.cayman-blog.date_format | default: "%Y-%m-%d" %}
+<span class="post-meta">{{ post.date | date: date_format }}</span>
+
+<div>&nbsp;</div>
+
+<span>{{ post.excerpt | markdownify | truncatewords: 30 }}</span>
+        
+{% endfor %}
+
+</div>
