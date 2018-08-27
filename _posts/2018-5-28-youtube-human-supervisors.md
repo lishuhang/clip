@@ -1,6 +1,7 @@
 ---
 layout: post
 title: YouTube越来越多的审核员
+categories: 书摘
 ---
 
 YouTube’s growing ranks of moderators now scan the worst videos online: torture, bombs, porn. Moderators are discouraged from working for more than two hours at a time. A psychologist is on call, and group therapy sessions are available. Some moderators are contract workers in the Philippines. Some, like those on Raul Gomez’s team, work out of San Bruno.
