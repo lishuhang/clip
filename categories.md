@@ -17,7 +17,7 @@ title: 分类页面
     {% for post in site.categories[category_name] %}
     <article class="archive-item">
     {% assign date_format = site.cayman-blog.date_format | default: "%Y-%m-%d" %}
-      <h4>{{ post.date | date: date_format }}&nbsp;<a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
+      <h4>{{ post.date | date: date_format }}&nbsp;•&nbsp;<a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
     </article>
     {% endfor %}
   </div>
