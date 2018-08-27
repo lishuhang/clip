@@ -18,7 +18,7 @@ categories: 书摘
 
 **[一批中国老人正在“排队办遗嘱”](https://mp.weixin.qq.com/s/m2FJKXDUqzwm2kCn5S2mIQ)**
 
-王京雪 瞭望智库
+王京雪 新华每日电讯
 
 
 
