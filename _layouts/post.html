@@ -24,7 +24,8 @@ layout: default
   {% endfor %}
 </span>
        • <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {% assign date_format = site.cayman-blog.date_format | default: "%b %-d, %Y" %}
+{% assign date_format = site.cayman-blog.date_format | default: "%Y-%m-%d" %}
+<span class="post-meta">{{ post.date | date: date_format }}</span>
         {{ page.date | date: date_format }}
       </time>
       {% if page.author %}

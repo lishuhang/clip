@@ -23,7 +23,7 @@ layout: default
 {% unless forloop.last %}&nbsp;{% endunless %}
 {% endfor %}
 </span>
-<span>&nbsp;|&nbsp;</span>
+<span>&nbsp;•&nbsp;</span>
 {% assign date_format = site.cayman-blog.date_format | default: "%Y-%m-%d" %}
 <span class="post-meta">{{ post.date | date: date_format }}</span>
 
