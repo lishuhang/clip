@@ -54,7 +54,9 @@ plugins:
   - jekyll-redirect-from
   - jekyll-mentions
   - jekyll-seo-tag
-  - jekyll-feed
+
+gems:
+   - jekyll-feed # old version?
 
 # Exclude these files from your production _site
 exclude:
