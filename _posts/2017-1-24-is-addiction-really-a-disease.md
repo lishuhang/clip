@@ -17,5 +17,7 @@ categories: 书摘
 ---
 
 成瘾真的是一种病吗？
+
 MARC LEWIS
-https://neu-reality.com/2017/01/24/issue-04-is-addiction-really-a-disease/
+
+[https://neu-reality.com/2017/01/24/issue-04-is-addiction-really-a-disease/](https://neu-reality.com/2017/01/24/issue-04-is-addiction-really-a-disease/)

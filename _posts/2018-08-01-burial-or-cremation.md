@@ -33,5 +33,7 @@ categories: 书摘
 ---
 
 中国火葬往事：是个观念问题，更是个经济问题
+
 杨津涛  短史记  2018-08-01
-https://mp.weixin.qq.com/s/eFZByfUPS99Fn2084GL1sA
+
+[https://mp.weixin.qq.com/s/eFZByfUPS99Fn2084GL1sA](https://mp.weixin.qq.com/s/eFZByfUPS99Fn2084GL1sA)

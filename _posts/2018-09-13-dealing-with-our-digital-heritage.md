@@ -15,5 +15,7 @@ categories: 书摘
 ---
 
 我死后，活着的人该拿我的微信号怎么办？
+
 夏雪宜 单向街书店 2018-09-13
-https://mp.weixin.qq.com/s/3fWyasbE1Ns8nIaxSGWa3g
+
+[https://mp.weixin.qq.com/s/3fWyasbE1Ns8nIaxSGWa3g](https://mp.weixin.qq.com/s/3fWyasbE1Ns8nIaxSGWa3g)

@@ -23,5 +23,7 @@ categories: 书摘
 ---
 
 我在美国踉踉跄跄的日子
+
 中青报 冰点周刊  2018-08-24
-https://mp.weixin.qq.com/s/Dhd-i2ySzsL2BHDTGDesqg
+
+[https://mp.weixin.qq.com/s/Dhd-i2ySzsL2BHDTGDesqg](https://mp.weixin.qq.com/s/Dhd-i2ySzsL2BHDTGDesqg)

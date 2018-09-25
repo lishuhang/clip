@@ -11,5 +11,7 @@ categories: 书摘
 ---
 
 不是老人们变傻了，而是傻人们变老了
+
 《凤凰周刊》主笔 段宇宏 大家 2018-09-13
-http://dajia.qq.com/original/gunrose/dyh20180913.html
+
+[http://dajia.qq.com/original/gunrose/dyh20180913.html](http://dajia.qq.com/original/gunrose/dyh20180913.html)

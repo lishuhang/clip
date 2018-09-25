@@ -15,5 +15,7 @@ categories: 书摘
 ---
 
 如何减少社会底层的犯罪？
+
 布尔费墨  2018-08-31
-https://mp.weixin.qq.com/s/lhOAaGikfrjsaxclmjVezA
+
+[https://mp.weixin.qq.com/s/lhOAaGikfrjsaxclmjVezA](https://mp.weixin.qq.com/s/lhOAaGikfrjsaxclmjVezA)

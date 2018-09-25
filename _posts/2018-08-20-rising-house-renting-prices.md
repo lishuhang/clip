@@ -9,5 +9,7 @@ categories: 书摘
 ---
 
 房租上涨之锅，长租公寓不背
+
 刘亚澜  深响  2018-08-20
-https://mp.weixin.qq.com/s/o98XlsaADQc61Hy0iUa10A
+
+[https://mp.weixin.qq.com/s/o98XlsaADQc61Hy0iUa10A](https://mp.weixin.qq.com/s/o98XlsaADQc61Hy0iUa10A)

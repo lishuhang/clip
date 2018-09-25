@@ -13,5 +13,7 @@ categories: 书摘
 ---
 
 用无人机杀人和用刀枪棍棒杀人有什么区别？
+
 布尔费墨  2016-04-11
-https://mp.weixin.qq.com/s/Rx3pXGtKd0bhgu6c5EPX7g
+
+[https://mp.weixin.qq.com/s/Rx3pXGtKd0bhgu6c5EPX7g](https://mp.weixin.qq.com/s/Rx3pXGtKd0bhgu6c5EPX7g)

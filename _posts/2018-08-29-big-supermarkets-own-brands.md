@@ -13,5 +13,7 @@ categories: 书摘
 ---
 
 谁在瓦解当下中国制造业的价值根基？
+
 杜建君  秦朔朋友圈  2018-08-29
-https://mp.weixin.qq.com/s/xHDb4Hvwssxqkrq8CJNXMQ
+
+[https://mp.weixin.qq.com/s/xHDb4Hvwssxqkrq8CJNXMQ](https://mp.weixin.qq.com/s/xHDb4Hvwssxqkrq8CJNXMQ)

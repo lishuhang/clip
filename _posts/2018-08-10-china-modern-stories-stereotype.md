@@ -23,5 +23,7 @@ categories: 书摘
 ---
 
 作家的病，别让时代背锅
+
 小绿桑  大家  2018-08-10
-https://mp.weixin.qq.com/s/5h4fcb0oD-7AP4CHl16zRA
+
+[https://mp.weixin.qq.com/s/5h4fcb0oD-7AP4CHl16zRA](https://mp.weixin.qq.com/s/5h4fcb0oD-7AP4CHl16zRA)

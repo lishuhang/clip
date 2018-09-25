@@ -13,5 +13,7 @@ categories: 书摘
 ---
 
 卧底工厂，这是我的蓝领调研全纪实
+
 徐志锋  虎嗅  2018-08-14
+
 [https://mp.weixin.qq.com/s/SuwvTVpP91-lpbD2FCvVwQ](https://mp.weixin.qq.com/s/SuwvTVpP91-lpbD2FCvVwQ)
