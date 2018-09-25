@@ -1,21 +1,25 @@
 ﻿---
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
+layout: page
+permalink: /categories/
+title: 分类页面
 ---
 
-<!--
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">全文</a>
+<div id="archives">
+{% for category in site.categories %}
+  <div class="archive-group">
+    {% capture category_name %}{{ category | first }}{% endcapture %}
+    <div id="#{{ category_name | slugize }}"></div>
+    <p></p>
+    
+    <h3 class="category-head" style="color:#999;">{{ category_name }}</h3>
+    <a name="{{ category_name | slugize }}"></a>
+    {% for post in site.categories[category_name] %}
+    <article class="archive-item">
+    {% assign date_format = site.cayman-blog.date_format | default: "%Y-%m-%d" %}
+      <h4>{{ post.date | date: date_format }}&nbsp;•&nbsp;<a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
     </article>
-  {% endfor %}
+    {% endfor %}
+  </div>
+{% endfor %}
 </div>
--->
