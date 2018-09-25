@@ -1,7 +1,7 @@
 ﻿---
+# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: page
-permalink: /categories/
-title: 分类页面
+title: 首页
 ---
 
 
