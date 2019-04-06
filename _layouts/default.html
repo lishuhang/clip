@@ -14,12 +14,13 @@
     <a id="skip-to-content" href="#content">跳转到内容</a>
 
     <header class="page-header" role="banner">
-      <h1 class="project-name"><a href="/" style="color:#FFF;"><img src="http://ww1.sinaimg.cn/large/4b91f9d5gy1fulxajyfplg207s02s3yb.gif" alt="{{ site.title | default: site.github.repository_name }}"/></a></h1>
-      <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+     <!--<h1 class="project-name">     </h1>-->
+     <a href="/" style="color:#FFF;"><img src="/assets/img/logo-horizontal-white.svg" alt="{{ site.title | default: site.github.repository_name }}" /></a>
+      <!--<h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>-->
+     <a href="/about/" class="btn">关于</a>
      <a href="https://lishuhang.me/" class="btn" target="_blank">航通社</a>
-     <a href="https://blog.lishuhang.me/" class="btn" target="_blank">56K小猫</a>
-     <a href="https://g.lishuhang.me/" class="btn" target="_blank">作品集</a>
-
+     <a href="]/blog/" class="btn" target="_blank">56K小猫</a>
+     <a href="/gallery/" class="btn" target="_blank">作品集</a>
     </header>
 
     <main id="content" class="main-content" role="main">
@@ -35,8 +36,6 @@
       <a href="https://weibo.com/lishuhang">微博</a> ·
       <a href="https://mp.weixin.qq.com/s/tFzBdbA0VtXkyaPIDcHwGg">微信</a> ·
       <a href="https://zhuanlan.zhihu.com/lishuhang">知乎</a> ·
-      <a href="https://www.huxiu.com/member/10951/article.html">虎嗅网</a>
-
       </footer>
     </main>
 
@@ -52,6 +51,44 @@
       </script>
     {% endif %}
     
-    
+<button onclick="topFunction()" id="myBtn" title="回到顶部">▲</button>
+
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+</script>
+
+<style type="text/css">
+#myBtn {
+  display: none; /* Hidden by default */
+  width:50px; height:50px; border-radius: 50px;
+  position: fixed; z-index: 99;
+  bottom: 30px; right: 30px;
+  border: none; outline: none;
+  background: #347CF8;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+#myBtn:hover {
+  background-color: #245fd8; /* Add a dark-grey background on hover */
+}
+</style>
+
   </body>
 </html>

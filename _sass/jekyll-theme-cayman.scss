@@ -1,7 +1,8 @@
 @import "normalize";
 @import "rouge-github";
 @import "variables";
-@import url(https://fonts.googleapis.com/earlyaccess/notosansscsliced.css);
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans|Noto+Serif'); // custom font
+@import url('https://fonts.lug.ustc.edu.cn/css?family=Noto+Sans|Noto+Serif'); // custom font
 
 @mixin large {
   @media screen and (min-width: #{$large-breakpoint}) {
@@ -28,9 +29,10 @@
 body {
   padding: 0;
   margin: 0;
-  font-family:'Noto Sans SC Sliced', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family:'Noto Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
-  line-height: 1.5;
+  font-weight: 300;
+  line-height: 2;
   color: $body-text-color;
 }
 
@@ -63,39 +65,34 @@ a {
 
 .btn {
   display: inline-block;
-  margin-bottom: 1rem;
   color: rgba(255, 255, 255, 0.7);
   background-color: rgba(255, 255, 255, 0.08);
-  border-color: rgba(255, 255, 255, 0.2);
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 0.3rem;
+  border: solid 1px rgba(255, 255, 255, 0);
+  border-radius: 0.5rem;
   transition: color 0.2s, background-color 0.2s, border-color 0.2s;
 
   &:hover {
     color: rgba(255, 255, 255, 0.8);
     text-decoration: none;
     background-color: rgba(255, 255, 255, 0.2);
-    border-color: rgba(255, 255, 255, 0.3);
+    border: solid 1px rgba(255, 255, 255, 0.3);
   }
 
   + .btn {
-    margin-left: 1rem;
+    margin-left: 0.3rem;
   }
 
   @include large {
-    padding: 0.75rem 1rem;
+    padding: 0.25rem 0.75rem;
   }
 
   @include medium {
-    padding: 0.6rem 0.9rem;
+    padding: 0.125rem 0.375rem;
     font-size: 0.9rem;
   }
 
   @include small {
-    display: block;
-    width: 100%;
-    padding: 0.75rem;
+    padding: 0.125rem 0.375rem;
     font-size: 0.9rem;
 
     + .btn {
@@ -112,7 +109,7 @@ a {
   background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
 
   @include large {
-    padding: 2rem 3rem;
+    padding: 1.5rem 2.5rem;
   }
 
   @include medium {
@@ -121,6 +118,18 @@ a {
 
   @include small {
     padding: 1rem 1rem;
+  }
+}
+
+.page-header img {
+height:60px;
+display:inline;
+padding-right:1rem;
+
+  @include small {
+    display:block;
+    text-align:center;
+    height:60px;
   }
 }
 
@@ -185,7 +194,20 @@ a {
 
   img {
     max-width: 100%;
+    border-radius: 10px;
+    box-shadow:0px 0px 4px rgba(0,0,0,0.5);
   }
+
+.post-excerpt img {
+width: 175px;
+height: 100px;
+
+  @include small {
+    width: 140px;
+    height: 80px;
+  }
+
+}
 
   h1,
   h2,
@@ -195,7 +217,7 @@ a {
   h6 {
     margin-top: 2rem;
     margin-bottom: 1rem;
-    font-weight: normal;
+    font-weight: 900;
     color: $section-headings-color;
   }
 
